@@ -7,4 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="app_background_color">#ADD8E6</color>
+    <color name="grid_element_text_color">#FFFFFFFF</color>
+    <color name="grid_element_background_color">#FF3700B3</color>
 </resources>

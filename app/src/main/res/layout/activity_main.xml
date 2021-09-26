@@ -1,7 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/app_background_color"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    android:columnCount="2"
+    android:rowCount="6"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonGoodMorning"
+        android:layout_margin="@dimen/grid_element_margin"
+        android:textSize="@dimen/grid_element_text_size"
+        android:background="@color/grid_element_background_color"
+        android:textColor="@color/grid_element_text_color"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="@string/phrase_good_morning" />
+
+    <Button
+        android:id="@+id/buttonGoodNight"
+        android:layout_margin="@dimen/grid_element_margin"
+        android:textSize="@dimen/grid_element_text_size"
+        android:background="@color/grid_element_background_color"
+        android:textColor="@color/grid_element_text_color"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="@string/phrase_good_night" />
+
+    <Button
+        android:id="@+id/buttonGoodbye"
+        android:layout_margin="@dimen/grid_element_margin"
+        android:textSize="@dimen/grid_element_text_size"
+        android:background="@color/grid_element_background_color"
+        android:textColor="@color/grid_element_text_color"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="@string/phrase_goodbye" />
+
+    <Button
+        android:id="@+id/buttonLetsGo"
+        android:layout_margin="@dimen/grid_element_margin"
+        android:textSize="@dimen/grid_element_text_size"
+        android:background="@color/grid_element_background_color"
+        android:textColor="@color/grid_element_text_color"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="@string/phrase_lets_go" />
+
+    <Button
+        android:id="@+id/buttonSeeYouLater"
+        android:layout_margin="@dimen/grid_element_margin"
+        android:textSize="@dimen/grid_element_text_size"
+        android:background="@color/grid_element_background_color"
+        android:textColor="@color/grid_element_text_color"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="@string/phrase_see_you_later" />
+
+    <Button
+        android:id="@+id/buttonSeeYouTomorrow"
+        android:layout_margin="@dimen/grid_element_margin"
+        android:textSize="@dimen/grid_element_text_size"
+        android:background="@color/grid_element_background_color"
+        android:textColor="@color/grid_element_text_color"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="@string/phrase_see_you_tomorrow" />
+
+    <Button
+        android:id="@+id/buttonPlease"
+        android:layout_margin="@dimen/grid_element_margin"
+        android:textSize="@dimen/grid_element_text_size"
+        android:background="@color/grid_element_background_color"
+        android:textColor="@color/grid_element_text_color"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="@string/phrase_please" />
+
+    <Button
+        android:id="@+id/buttonThankYou"
+        android:layout_margin="@dimen/grid_element_margin"
+        android:textSize="@dimen/grid_element_text_size"
+        android:background="@color/grid_element_background_color"
+        android:textColor="@color/grid_element_text_color"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="@string/phrase_thank_you" />
+
+    <Button
+        android:id="@+id/buttonImSorry"
+        android:layout_margin="@dimen/grid_element_margin"
+        android:textSize="@dimen/grid_element_text_size"
+        android:background="@color/grid_element_background_color"
+        android:textColor="@color/grid_element_text_color"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="@string/phrase_im_sorry" />
+
+    <Button
+        android:id="@+id/buttonExcuseMe"
+        android:layout_margin="@dimen/grid_element_margin"
+        android:textSize="@dimen/grid_element_text_size"
+        android:background="@color/grid_element_background_color"
+        android:textColor="@color/grid_element_text_color"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="@string/phrase_excuse_me" />
+
+    <Button
+        android:id="@+id/buttonHowAreYou"
+        android:layout_margin="@dimen/grid_element_margin"
+        android:textSize="@dimen/grid_element_text_size"
+        android:background="@color/grid_element_background_color"
+        android:textColor="@color/grid_element_text_color"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="@string/phrase_how_are_you" />
+
+    <Button
+        android:id="@+id/buttonImOk"
+        android:layout_margin="@dimen/grid_element_margin"
+        android:textSize="@dimen/grid_element_text_size"
+        android:background="@color/grid_element_background_color"
+        android:textColor="@color/grid_element_text_color"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="@string/phrase_im_ok" />
+
+</GridLayout>

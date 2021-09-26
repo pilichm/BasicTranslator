@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">BasicTranslator</string>
+    
+    <!-- Phrases for translation -->
+    <string name="phrase_good_morning">Good Morning</string>
+    <string name="phrase_good_night">Good Night</string>
+    <string name="phrase_goodbye">Goodbye</string>
+    <string name="phrase_lets_go">Let\'s go!</string>
+    <string name="phrase_see_you_later">See you later</string>
+    <string name="phrase_see_you_tomorrow">See you tomorrow</string>
+    <string name="phrase_please">Please</string>
+    <string name="phrase_thank_you">Thank you</string>
+    <string name="phrase_im_sorry">I\'m sorry</string>
+    <string name="phrase_excuse_me">Excuse me</string>
+    <string name="phrase_how_are_you">How are you?</string>
+    <string name="phrase_im_ok">I\'m ok</string>
 </resources>
