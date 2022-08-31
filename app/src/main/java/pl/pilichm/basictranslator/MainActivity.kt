@@ -4,14 +4,16 @@ import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import pl.pilichm.basictranslator.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
+    private lateinit var binding: ActivityMainBinding
     private var mMediaPlayer: MediaPlayer? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         addOnClickListenersToGridElements()
     }
@@ -20,18 +22,18 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
      * Adds on click listeners to all grid elements.
      * */
     private fun addOnClickListenersToGridElements(){
-        buttonGoodMorning.setOnClickListener(this)
-        buttonGoodNight.setOnClickListener(this)
-        buttonGoodbye.setOnClickListener(this)
-        buttonLetsGo.setOnClickListener(this)
-        buttonSeeYouLater.setOnClickListener(this)
-        buttonSeeYouTomorrow.setOnClickListener(this)
-        buttonPlease.setOnClickListener(this)
-        buttonThankYou.setOnClickListener(this)
-        buttonImSorry.setOnClickListener(this)
-        buttonExcuseMe.setOnClickListener(this)
-        buttonHowAreYou.setOnClickListener(this)
-        buttonImOk.setOnClickListener(this)
+        binding.buttonGoodMorning.setOnClickListener(this)
+        binding.buttonGoodNight.setOnClickListener(this)
+        binding.buttonGoodbye.setOnClickListener(this)
+        binding.buttonLetsGo.setOnClickListener(this)
+        binding.buttonSeeYouLater.setOnClickListener(this)
+        binding.buttonSeeYouTomorrow.setOnClickListener(this)
+        binding.buttonPlease.setOnClickListener(this)
+        binding.buttonThankYou.setOnClickListener(this)
+        binding.buttonImSorry.setOnClickListener(this)
+        binding.buttonExcuseMe.setOnClickListener(this)
+        binding.buttonHowAreYou.setOnClickListener(this)
+        binding.buttonImOk.setOnClickListener(this)
     }
 
     /**
